@@ -16,7 +16,7 @@ Data quality checks must be run after the ETL tasks have been executed.
 <img src="images/project-dag.png">
 
 *The final Data Pipeline, or DAG (Directed Acyclic Graph) was designed with the processing flow shown above.*
-*Each box represents a task as defined in* **dags/primary_day.py**
+*Each box represents a task as defined in* **dags/primary_dag.py**
 
 ### Song JSON data 
 The first dataset is a subset of real data from the [Million Song Dataset](http://millionsongdataset.com/).  

@@ -49,7 +49,7 @@ It is optimized for analytic queries to answer any questions on user songplay be
     - Fires up Airflow using Docker Compose and CeleryExecutor! Waits until both Airflow and Redshift are ready.
     - Spins up a Redshift cluster based on **./dwh.cfg** parameters
     - Creates the Airflow connections and IAM ARN variable from the host machine
-    - Activates the DAG. NOTE: Please monitor the DAGs progress on the webserver UI [localhost:8080](http://localhost:8080/)
+    - Activates the DAG. NOTE: Please monitor the DAGs progress on the webserver UI: [localhost:8080](http://localhost:8080/)
     - Invites the user into the Redshift connection to explore the tables from the terminal!
 
 ### Extra work completed   
